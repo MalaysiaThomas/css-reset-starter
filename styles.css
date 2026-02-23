@@ -287,3 +287,9 @@ h1 {
     margin-block-end: 0.67em;
     font-weight: bold;
 }
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
