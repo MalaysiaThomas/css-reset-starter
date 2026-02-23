@@ -279,6 +279,8 @@ code{
 /* for the pre block */
 pre{
     font-family: var(--code-fonts);
+    margin-block: 1em 1em;
+    margin-inline: 0px;
 }
 
 pre code{
