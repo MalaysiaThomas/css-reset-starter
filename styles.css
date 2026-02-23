@@ -328,11 +328,6 @@ label {
     cursor: default;
 }
 
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-
 figure {
         display: block;
     margin-block-start: 1em;
