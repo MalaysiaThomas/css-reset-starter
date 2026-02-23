@@ -151,6 +151,7 @@ a:focus{
 
 /* Form Styles */
 form{
+    display: block;
     width: 300px;
     padding: 1rem;
     margin: 0 auto;
@@ -187,10 +188,17 @@ input{
 /* Fieldset Styles */
 fieldset{
     display: grid;
+    min-inline-size: min-content;
     grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
     gap: 1rem;
     margin: 1rem 0;
+    margin-inline: 2px;
+    border-width: 2px;
+    border-style: groove;
     border-color: var(--red);
+    border-image: initial;
+    padding-block: .35em .625em;
+    padding-inline: .75em;
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
@@ -310,5 +318,23 @@ h3 {
 }
 
 legend {
+    display: block;
     padding-inline: 2px;
+}
+
+label {
+    cursor: default;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+figure {
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
